@@ -1,19 +1,67 @@
-<!--Form is an element container used to get inputs from a user.-->
-<form action="other.html">
-    
-<label for="fname">First Name</label>
-<input type="text" id="fname"><br> <!--Break puts next code below it.-->
+<!-- Boilerplate Code-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <h1>Feedback Survey</h1>
 
-<label for="lname">Last Name</label>
-<input type="text" id="lname"><br>
+        <!-- Form is an element container used to get inputs from a user.-->
+        <form action="other.html">
 
-<label for="email">Email:</label>
-<input type="email"><br>
+            <label for="email">Email:</label>
+            <input type="email"><br>
 
-<label for=""></label>
-<input type="password">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname"><br> <!--Break puts next code below it.-->
 
-<input type="submit" value="Save">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname"><br>
+
+            <p>Are you Canadian?</p>
+
+            <!--Radiobuttons-->
+            <!-- shared "name" attribute links all radiobuttons & allows only one to be active -->
+            <!-- "value" attribute distinguishes between each radiobutton-->
+
+            <input type="radio" id="y" name="citizenship" value="yes">
+            <label for="y">Yes</label><br>
+            
+            <input type="radio" id="n" name="citizenship" value="no">
+            <label for="n">No</label><br><br>
+            
+            <p>How was your stay in Canada?</p>
+
+            <!--Dropdown-->
+            <!--All options are connected to the name="experience"-->
+            <select name="experience" id="">
+                <option value="Excellent">Amazing</option>
+                <option value="Ok">Average</option>
+                <option value="Bad">Awful</option>
+            </select><br><br>
+            
+            <p>Any other comments?</p>
+
+            <!--Textarea-->
+            <!--cols & rows define size of textarea-->
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            
+            
+            <!--Essentially you are making name-value pairs for the elements above-->
+
+            <br><br>
+            <input type="submit" value="Enter">
 
 
-</form>
+
+
+
+        </form>
+
+
+    </body>
+</html>
+
