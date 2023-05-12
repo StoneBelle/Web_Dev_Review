@@ -1,0 +1,81 @@
+/*CSS controls the styling of HTML elements in a separate doc.*/
+/*All HTML elements have a style attribute
+    - but it's inefficent/messy to use
+    
+  It is more efficient to link a CSS file to the HTML
+    - selectors allow use to assign styles to multiple HTML elements at once
+
+  CSS specifity hierarchy overrides certain things (i.e. usually small > large elements)
+      e.g. span > div
+*/
+
+body{
+  background-color: #E7CBCB;
+}
+
+h1{
+  font-family: "Darumadrop One";
+  text-align: center;
+
+  /**Two main ways to change font size. 
+  Absolute - useful for accuracy i.e. px 
+  Relative - i.e. percentages, em **/
+
+  font-size: 300%;
+}
+
+p{
+  font-size: 1em ;
+}
+
+div{
+  background-color: #FFE6C7;
+  border-color: #99627A;
+  border-width: 2px;
+  border-style: dashed;
+  margin-bottom: 10px;
+}
+
+span{
+  background-color: #EEEEEE;
+}
+
+
+ /** use "." to refer to css class **/
+
+.myclass{
+  color:#99627A;
+}
+
+
+ /** use "#" to refer to css id **/
+
+ /**CSS Box Model 
+  - group of edges surrounding an element 
+  - content > padding > border > margin
+  - helps separate the edges of diff html elements on a page
+  - follow top, bottom, left, right 
+**/
+
+#s{
+  text-align: center;
+  border:10px solid #5F264A;;
+  margin-bottom: 100px;
+  margin-left: 100px;
+
+}
+
+#b{
+  text-align: center;
+  border:10px solid #37306B;
+  padding-top: 20px;
+}
+
+#one{
+  color: #647E68;
+}
+
+#two{
+  color: #1D267D;
+}
+
