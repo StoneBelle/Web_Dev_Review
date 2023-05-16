@@ -4,6 +4,7 @@
     
   It is more efficient to link a CSS file to the HTML
     - selectors "select" html elements & allow use to assign styles to multiple HTML elements at once
+    - E.g. html, class, id selectors
 
   CSS specifity hierarchy overrides certain things (i.e. usually small > large elements)
       e.g. span > div
