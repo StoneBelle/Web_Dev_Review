@@ -8,8 +8,36 @@
 
   CSS specifity hierarchy overrides certain things (i.e. usually small > large elements)
       e.g. span > div
-*/
 
+ CLASS ATTRIBUTE SELECTOR
+            - can be assigned to elements for specific CSS purposes
+            - often used within divs to group the styling of everything within it
+            - i.e. used more than once on a webpage and for many different elements
+            
+            ID ATTRIBUTE SELECTOR
+            - also assigned to elements for styling purposes
+            - BUT should be unique & ONLY used for a SINGLE element on webpage
+            - i.e. used for unique identification for s single element you want to style
+
+            ATTRIBUTE SELECTOR
+            - selects elements only with the chosen attribute
+            - you can select with or without value as well
+            - E.g.
+    INDEX.HTML  <p draggable="True">Drag Me</p>
+                <p draggable="False">Don't Drag Me</p>
+                
+    STYLES.CSS  p[draggable]{
+                color: red;
+                }
+                
+                p[draggable="False]{
+                color: pink;
+                }
+
+            UNIVERSAL SELECTOR
+            - just an * before the chosen  element
+            - it selects all to what is linked to it
+        */
 body{
   background-color: #E7CBCB;
 }
