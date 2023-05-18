@@ -37,8 +37,8 @@
                         }
 
         UNIVERSAL SELECTOR
-        - just an * before the chosen  element
-        - it selects all to what is linked to it
+        - just an * before {}
+        - it selects all html elements 
     */
 body{
   background-color: #E7CBCB;
