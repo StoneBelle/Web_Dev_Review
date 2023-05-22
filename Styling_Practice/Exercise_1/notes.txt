@@ -1,0 +1,1 @@
+Simple exercise to practice using different CSS selectors.
