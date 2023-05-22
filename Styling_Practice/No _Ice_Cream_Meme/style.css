@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    font-family: "Darumadrop One";
+    text-align: center;
+}
+
+div{
+    width: 50%;
+    margin-left: 25%;
+}
+
+img{
+    border: 5px solid white;
+    width: 100%;
+    margin-top: 25%;
+}
+
+p{
+    font-size: 19px;
+}
+
+.text{
+    color: #F5E9CF;
+}
+
+
