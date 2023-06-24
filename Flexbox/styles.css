@@ -1,0 +1,47 @@
+.parent{
+    /* flex display makes the children aligned on an x-axis as opposed to them previopusly being stacked on the y-axis*/
+    display: flex; 
+    background-color: antiquewhite;
+    width: 500px;
+    height: 500px;
+    /* Must declare border-style first before using any other border property */
+    border-style: solid; 
+    border-width: thick;
+    border-radius: 5px;
+
+    /* flex-direction: column; */
+    
+    /*Justify works on x-axis*/
+    justify-content: space-evenly;
+    
+    /*Align works on y-axis. NOTE: this is vice versa if is flex-direction is changed from default*/
+    align-items: center;
+
+
+    /*Prevents items from crushing each other when you add more items. Default is "norap", hence the squish. "wrap" unlocks a new property, "align-content" which aligns on the cross axis*/
+    flex-wrap: wrap;
+    align-content: flex-end;
+    /*adds gaps between each item*/
+    gap: 1rem;
+
+}
+
+
+.child{
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    border-style: inherit;
+    border-width: thick;
+    border-color:rgb(31, 68, 155);
+    border-radius: inherit;
+}
+
+ /*Properties that works on the child in the parent ontainer.*/
+.child-1{
+    flex-shrink: 5;
+    
+}
+.child-9{ 
+    flex-grow: 1;
+}
