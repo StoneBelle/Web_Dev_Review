@@ -1,0 +1,14 @@
+Bootstrap 
+
+Popular CSS framework 
+It contains premade CSS files
+Prebuilt components 
+Col sys that make mobile and desktop site responsive 
+Make building components easier and faster
+
+
+
+HOW TO USE BOOTSTRAP
+
+Link bootstrap through a CDN (Content Delivery Network) link 
+Get hold of the bootstrap CSS file 
