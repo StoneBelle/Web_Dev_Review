@@ -6,7 +6,8 @@
     - selectors "select" html elements & allow use to assign styles to multiple HTML elements at once
     - E.g. html, class, id, attribute selectors
 
-  CSS specifity hierarchy overrides certain things (i.e. usually small > large elements)
+  CSS specificty hierarchy overrides certain things 
+    -i.e. element < class < attribute < id
       e.g. span > div
         HTML SELECTOR
         - general format to style html elements
