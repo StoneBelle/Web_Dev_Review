@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+ 
+<!-- 4 Main Types of Positioning in CSS
+
+  Static
+  - Goes in the order of your HTML code
+  -i.e. stacks in a top down approach
+  
+  Relative
+  - Positions item relative to its default (i.e. its static) position
+  
+  Absolute
+  - Positions relative to the NEAREST positioned ancestor or top left corner of webpage if no ancestor
+  
+  - Absolute positioning changes the z-index and places it on a new layer
+ 
+  Fixed
+  - Positioned relative to the top left corner of browser window
+
+-->
+  
+  
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    /* Write your code here */
+    .blue-box {
+      position: relative;
+      left: 200px;
+      top: 200px;
+      
+      background-color: blue;
+      height: 300px;
+      width: 500px;
+    }
+
+    .red-circle {
+      position: absolute;
+      left: 250px;
+      top: 150px;
+      
+      background-color: red;
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="blue-box">
+    <div class="red-circle">
+    </div>
+  </div>
+
+</body>
+
+</html>
